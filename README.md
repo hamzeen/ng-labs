@@ -1,6 +1,6 @@
 # NgLabs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.0.
+This project is created with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.0; [Typescript](https://www.typescriptlang.org) version 2.3.4.
 
 ## Development server
 
