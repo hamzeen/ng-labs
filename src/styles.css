@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url("https://raw.githubusercontent.com/hamzeen/toolkit/master/fonts/Roboto-Thin.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+* {
+  margin:0;
+  padding:0;
+  font-family: "Roboto-Thin", Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+footer {
+  margin-top: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+    color: #ffffff;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 2px;
+    border: 1px solid transparent;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+
+/* Navigation link styles */
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: #607D8B;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;
+}
+nav a.active {
+  color: #039be5;
+}
