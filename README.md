@@ -2,6 +2,14 @@
 
 This project is created with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.0; [Typescript](https://www.typescriptlang.org) version 2.3.4.
 
+## Graph
+https://codesandbox.io/s/lpn3yvv3zl
+package.json
+```    
+    "highcharts": "6.1.0",
+    "highcharts-angular": "2.1.3"
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
