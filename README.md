@@ -4,6 +4,7 @@ This project is created with [Angular CLI](https://github.com/angular/angular-cl
 
 ## Graph
 https://codesandbox.io/s/lpn3yvv3zl
+https://gist.github.com/hamzeen/e8a740114663637ddd3ecce2a3602a63
 package.json
 ```    
     "highcharts": "6.1.0",
