@@ -10,6 +10,8 @@ package.json
     "highcharts": "6.1.0",
     "highcharts-angular": "2.1.3"
 ```
+## PDF:
+https://stackoverflow.com/questions/41484323/how-to-use-jspdf-with-angular-2
 
 ## Development server
 
