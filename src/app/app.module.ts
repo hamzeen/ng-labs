@@ -8,11 +8,22 @@ import { UserComponent } from './users/';
 import { AboutComponent } from './about/about.component';
 
 import { routes } from './app.routes';
+import { HighchartsChartModule } from 'highcharts-angular';
+import { GraphComponent } from './graph/graph.component';
 
 @NgModule({
   bootstrap: [AppComponent],
-  declarations: [ AppComponent, ContactComponent, UserComponent, AboutComponent],
-  imports: [RouterModule,BrowserModule,
+  declarations: [
+    AppComponent,
+    ContactComponent,
+    UserComponent,
+    AboutComponent,
+    GraphComponent
+  ],
+  imports: [
+    RouterModule,
+    BrowserModule,
+    HighchartsChartModule,
     RouterModule.forRoot(routes, {
       useHash: true
     })
