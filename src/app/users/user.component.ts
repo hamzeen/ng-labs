@@ -22,16 +22,8 @@ export class UserComponent {
     this.activeUser = user;
     console.log(this.activeUser);
   }
-  
-  public download1() {
-    console.log('PDF on the way...');
-    let doc = new jsPDF();
-    doc.text(20, 20, 'Hello world!');
-    doc.addPage();
-    doc.text(20, 20, 'Hi again this I page two');
-    doc.save('Test.pdf');
-  }
-    download(){
+
+  public download(){
     html2canvas(document.getElementById('results')).then(function(canvas) {
       var img = canvas.toDataURL("image/png");
       var doc = new jsPDF();
@@ -39,4 +31,13 @@ export class UserComponent {
       doc.save('testCanvas.pdf');
     });
   }
+  
+  /*public download1() {
+    console.log('PDF on the way...');
+    let doc = new jsPDF();
+    doc.text(20, 20, 'Hello world!');
+    doc.addPage();
+    doc.text(20, 20, 'Hi again this I page two');
+    doc.save('Test.pdf');
+  }*/
 }
