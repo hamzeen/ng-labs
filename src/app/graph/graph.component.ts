@@ -7,7 +7,7 @@ import { constants } from './graph-data';
 @Component({
   selector: 'app-root',
   templateUrl: './graph.component.html',
-  styleUrls: []
+  styleUrls: ['./graph.component.css']
 })
 
 export class GraphComponent implements OnInit {
@@ -20,7 +20,9 @@ export class GraphComponent implements OnInit {
   constructor() {}
 
   public ngOnInit() {
-    this.drawGraph(this.highChartGraphData);
+    setTimeout(()=> {
+      this.drawGraph(this.highChartGraphData)
+    }, 5000);
   }
 
 
@@ -35,7 +37,7 @@ export class GraphComponent implements OnInit {
     this.chartOptions = {
 
       title: {
-        text: 'Hamzeen Stock Graph Sample'
+        text: null
       },
       exporting: {
         enabled: false
