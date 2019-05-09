@@ -25,7 +25,6 @@ export class GraphComponent implements OnInit {
     }, 5000);
   }
 
-
   public drawGraph(graphData) {
 
     Highcharts.setOptions({

@@ -3,19 +3,18 @@ import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './';
-import { ContactComponent } from './contact/';
 import { UserComponent } from './users/';
 import { AboutComponent } from './about/about.component';
 
 import { routes } from './app.routes';
 import { HighchartsChartModule } from 'highcharts-angular';
 import { GraphComponent } from './graph/graph.component';
+import {ContactModule} from './contact/contact.module';
 
 @NgModule({
   bootstrap: [AppComponent],
   declarations: [
     AppComponent,
-    ContactComponent,
     UserComponent,
     AboutComponent,
     GraphComponent
@@ -24,6 +23,7 @@ import { GraphComponent } from './graph/graph.component';
     RouterModule,
     BrowserModule,
     HighchartsChartModule,
+    ContactModule,
     RouterModule.forRoot(routes, {
       useHash: true
     })
