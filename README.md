@@ -37,3 +37,5 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Reference
 
 deploy to github pages: https://github.com/cuckooinc/portfolio
+graph [1]: https://stackblitz.com/edit/angular-highcharts-stock?file=package.json
+graph [2]: https://codesandbox.io/s/pkr2lol00
