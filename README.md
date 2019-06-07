@@ -2,14 +2,6 @@
 
 This project is created with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.0; [Typescript](https://www.typescriptlang.org) version 2.3.4.
 
-## Graph
-* https://codesandbox.io/s/lpn3yvv3zl
-* https://gist.github.com/hamzeen/e8a740114663637ddd3ecce2a3602a63
-* package.json
-```    
-    "highcharts": "6.1.0",
-    "highcharts-angular": "2.1.3"
-```
 ## PDF:
 https://stackoverflow.com/questions/41484323/how-to-use-jspdf-with-angular-2
 
