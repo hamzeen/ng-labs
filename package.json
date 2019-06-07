@@ -1,17 +1,19 @@
 {
-  "name": "ng-labs",
+  "name": "hamzeen.github.io",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "dist": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
+    "@angular-devkit/core": "^8.0.2",
     "@angular/animations": "^5.2.4",
     "@angular/common": "^5.2.4",
     "@angular/compiler": "^5.2.4",
@@ -21,18 +23,18 @@
     "@angular/platform-browser": "^5.2.4",
     "@angular/platform-browser-dynamic": "^5.2.4",
     "@angular/router": "^4.2.4",
+    "@types/html2canvas": "0.0.35",
     "angular-highcharts": "^4.1.2",
     "core-js": "^2.4.1",
     "highcharts": "^7.1.1",
-    "jspdf": "^1.5.3",
-    "@types/html2canvas": "0.0.35",
-    "html2canvas": "^1.0.0-rc.1",
     "highcharts-angular": "^2.4.0",
+    "html2canvas": "^1.0.0-rc.1",
+    "jspdf": "^1.5.3",
     "rxjs": "^5.4.2",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
-    "@angular/cli": "1.4.0",
+    "@angular/cli": "1.5.0",
     "@angular/compiler-cli": "^5.2.4",
     "@angular/language-service": "^5.2.4",
     "@types/highcharts": "^5.0.39",
