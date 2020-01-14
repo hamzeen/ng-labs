@@ -67,8 +67,8 @@ private buildAnswerOptions(answers: any[]) {
 
 
 ## Forms Intro to Model Driven (Reactive) Forms
-https://scotch.io/tutorials/how-to-build-nested-model-driven-forms-in-angular-2
-https://scotch.io/tutorials/angular-2-form-validation
+ * https://scotch.io/tutorials/how-to-build-nested-model-driven-forms-in-angular-2
+ * https://scotch.io/tutorials/angular-2-form-validation
 
 
 ## Form Validations/Custom Validators
