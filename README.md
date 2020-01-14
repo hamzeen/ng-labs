@@ -2,6 +2,9 @@
 
 This project is created with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.0; [Typescript](https://www.typescriptlang.org) version 2.3.4.
 
+## Custom Validators
+cross fields: https://medium.com/@realTomaszKula/angular-cross-field-validation-d94e0d063b61
+
 ## PDF:
 https://stackoverflow.com/questions/41484323/how-to-use-jspdf-with-angular-2
 
