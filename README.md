@@ -118,9 +118,6 @@ export const validateForm = (form: FormGroup) => {
   });
 };
 
-
-
-
 // import { markFormGroupTouched, clearValidators, updateValidators } from '../shared/utilities/validate-utils.ts';
 
 ```
