@@ -9,6 +9,8 @@ This project is created with [Angular CLI](https://github.com/angular/angular-cl
 ng new my-sassy-app --style=scss
 # later
 ng set defaults.styleExt scss
+# after ng6
+ng config defaults.styleExt = scss
 
 // .angular-cli.json
 "defaults": {
