@@ -28,11 +28,14 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Reference
 
+reactive form: https://github.com/hamzeen/angular2-reactive-form
+
 survival kit: https://hamzeen.wordpress.com/2018/03/04/angular-survival-kit/
 
 deploy to github pages: https://github.com/cuckooinc/portfolio
 
 css to scss [1]: https://scotch.io/tutorials/using-sass-with-the-angular-cli
+
 [2]: https://stackoverflow.com/questions/41428437/angular-cli-generate-sass-project-from-existing-project
 
 graph [1]: https://stackblitz.com/edit/angular-highcharts-stock?file=package.json
