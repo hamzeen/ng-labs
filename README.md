@@ -2,6 +2,43 @@
 
 This project is created with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.0; [Typescript](https://www.typescriptlang.org) version 2.3.4.
 
+## Add Form Controls Dynamically
+```
+// some class.ts
+answersOptions: any = [];
+
+createForm() {
+  this.formQuiz = new FormGroup({});
+  this.questions.forEach(que => {
+    const control: FormContorl = new FormControl('', Validators.required);
+    this.formQuetionnaier.addControl(que.id, control);
+
+    this.buildAnswerOptions(que.answers);
+  });
+}
+
+private buildAnswerOptions(answers: any[]) {
+  const temp = [];
+  answers.forEach(answer => {
+    temp.push(
+      { value: answer.id, label: answer.label });
+  });
+  this.answersOptions.push(temp);
+}
+
+
+<form [formGroup]="formQuiz">
+    <div *ngFor="let question of questions; let i = index;">
+	    {{question.label}}
+	    <div *ngFor="let answer of answersOptions[i]; let j = index;">
+        <input type="radio" formControlName="{{answer.id}}" />
+        {{answer.label}} 
+	    </div>
+    </div>
+</form>
+```
+
+
 ## Custom Validators
 cross fields: https://medium.com/@realTomaszKula/angular-cross-field-validation-d94e0d063b61
 ```
