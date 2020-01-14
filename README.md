@@ -68,7 +68,6 @@ this.formRegmyForm.get('myCheckbox').valueChanges
 manually trigger error on a field: https://stackoverflow.com/questions/43553544/how-can-i-manually-set-an-angular-form-field-as-invalid
 formData.form.controls['email'].setErrors({'incorrect': true});
 formData.form.controls['email'].setErrors(null);
-
 ```
 
 ## PDF:
@@ -99,6 +98,8 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 reactive form: https://github.com/hamzeen/angular2-reactive-form
 
+validation errors out of the world: https://netbasal.com/make-your-angular-forms-error-messages-magically-appear-1e32350b7fa5
+
 then filter now pipe!: https://stackoverflow.com/questions/52324514/why-wont-angulars-titlecase-filter-work-for-me
 
 survival kit: https://hamzeen.wordpress.com/2018/03/04/angular-survival-kit/
@@ -112,3 +113,9 @@ css to scss [1]: https://scotch.io/tutorials/using-sass-with-the-angular-cli
 graph [1]: https://stackblitz.com/edit/angular-highcharts-stock?file=package.json
 
 graph [2]: https://codesandbox.io/s/pkr2lol00
+
+ValdiationReads:
+
+  * https://medium.com/learn-angular/angular-5-forms-and-validations-343a585ecf50
+  * https://medium.com/razroo/form-validation-65ac0f0d49a3
+  
