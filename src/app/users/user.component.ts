@@ -18,9 +18,17 @@ export class UserComponent {
   ];
   activeUser: User;
 
+  constructor() {
+    this.addUser({id:4, name: 'Anders', lastName: 'Hans'});
+  }
+
   selectUser(user) {
     this.activeUser = user;
     console.log(this.activeUser);
+  }
+
+  addUser(user: User) {
+    this.users.push(user);
   }
 
   public download(){

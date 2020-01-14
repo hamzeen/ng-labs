@@ -17,4 +17,39 @@ export class SimpleValidations {
     }
     return null;
   }
+
+  /**
+   * email validator
+   */
+  static emailDomainValidator(control: FormControl) {
+    let email = control.value;
+    if (email && email.indexOf("@") != -1) {
+      let [_, domain] = email.split("@");
+      if (domain !== "hamzeen.io") {
+        return {
+          emailDomain: {
+            parsedDomain: domain
+          }
+        }
+      }
+    }
+    return null;
+  }
+
+  static confirmPassword(control: AbstractControl): { [key: string]: boolean } | null {
+    if(control.value &&
+      control.parent.controls["password"].value &&
+      control.parent.controls["password"].value === control.value) {
+      return null;
+    }
+    return {passwordsDontMatch: true};
+  }
+
+  static ageRangeValidator(control: AbstractControl): { [key: string]: boolean } | null {
+    if (control.value !== undefined && (isNaN(control.value) || control.value < 18 || control.value > 45)) {
+      return { 'ageRange': true };
+    }
+    return null;
+  }
+
 }
