@@ -5,7 +5,9 @@ This project is created with [Angular CLI](https://github.com/angular/angular-cl
 ## Add Form Controls Dynamically
 ```
 // some class.ts
+public formQuiz: FormGroup;
 answersOptions: any = [];
+
 
 createForm() {
   this.formQuiz = new FormGroup({});
