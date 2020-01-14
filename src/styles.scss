@@ -1,0 +1,130 @@
+/**
+ * Gloabl styles for the app,
+ * can be overridden in components
+ */
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("https://raw.githubusercontent.com/hamzeen/toolkit/master/fonts/Roboto-Thin.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+* {
+  margin:0; padding:0;
+  font-family: "Roboto-Thin", Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+body {
+
+  .text-center {
+    text-align: center;
+  }
+
+  .navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+    color: #ffffff;
+  }
+
+  .navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 2px;
+    border: 1px solid transparent;
+  }
+
+  .text {
+    font-size: 20px;
+    line-height: 50px;
+    padding-left: 10px;
+  }
+
+
+  /* Navigation link styles */
+  nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+  }
+  nav a:visited, a:link {
+    color: #607D8B;
+  }
+  nav a:hover {
+    color: #039be5;
+    background-color: #CFD8DC;
+  }
+  nav a.active {
+    color: #039be5;
+  }
+
+
+
+
+
+  @keyframes placeHolderShimmer {
+    0% {
+      background-position: -568px 0;
+    }
+    100% {
+      background-position: 568px 0;
+    }
+  }
+
+  .animated-background2, .text-line.short {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #F6F6F6;
+    background: linear-gradient(to right, #56F6F6 8%, #30F0F0 18%, #86F6F6 33%);
+    background-size: 800px 30px;
+    height: 17px;
+    position: relative;
+  }
+
+  .animated-background, .text-line {
+    animation-duration: 1.25s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #F6F6F6;
+    background: linear-gradient(to right, #06F6F6 18%, #00F0F0 28%, #06F6F6 33%);
+    background-size: 800px 30px;
+    height: 96px;
+    position: relative;
+  }
+
+
+  .progress-wrapper {
+    margin-left: 5vw;
+    width: calc(90vw - 5vw);
+  }
+
+
+  .text-line {
+    height: 20px;
+    width: 100%;
+    margin: 4px 0;
+    border-radius: 3px;
+  }
+
+  .text-line.short {
+    width: 80%;
+  }
+
+}
+
+
+
+form.submitted input.ng-invalid, input.ng-dirty.ng-invalid {
+  border: 1px solid red;
+}
+
+footer {
+  margin-top: 50px;
+}
