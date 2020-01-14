@@ -30,6 +30,8 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 reactive form: https://github.com/hamzeen/angular2-reactive-form
 
+then filter now pipe!: https://stackoverflow.com/questions/52324514/why-wont-angulars-titlecase-filter-work-for-me
+
 survival kit: https://hamzeen.wordpress.com/2018/03/04/angular-survival-kit/
 
 deploy to github pages: https://github.com/cuckooinc/portfolio
