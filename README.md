@@ -16,7 +16,15 @@ createForm() {
     this.formQuetionnaier.addControl(que.id, control);
 
     this.buildAnswerOptions(que.answers);
+    this.prefill(que.id); // pre-fill
   });
+}
+
+// prefills only question
+private prefill(queId: number) {
+  if (this.responses) {
+    this.formQuiz.get('' + queId).setValue(this.responses[queId]);
+  }
 }
 
 private buildAnswerOptions(answers: any[]) {
