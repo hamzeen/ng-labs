@@ -4,6 +4,26 @@ This project is created with [Angular CLI](https://github.com/angular/angular-cl
 
 ## Custom Validators
 cross fields: https://medium.com/@realTomaszKula/angular-cross-field-validation-d94e0d063b61
+```
+<div *ngIf="subscriptionForm.get('UserName').errors.required">
+            This field is required!
+        </div>
+
+this.formRegmyForm.get('myCheckbox').valueChanges
+    .subscribe(value => {
+      if(value) {
+        this.myForm.get('anotherField').setValidators(Validators.required)
+      } else {
+        // do something
+      }
+    }
+);
+
+manually trigger error on a field: https://stackoverflow.com/questions/43553544/how-can-i-manually-set-an-angular-form-field-as-invalid
+formData.form.controls['email'].setErrors({'incorrect': true});
+formData.form.controls['email'].setErrors(null);
+
+```
 
 ## PDF:
 https://stackoverflow.com/questions/41484323/how-to-use-jspdf-with-angular-2
