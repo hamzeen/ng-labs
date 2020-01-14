@@ -9,7 +9,6 @@ This project is created with [Angular CLI](https://github.com/angular/angular-cl
 ng new my-sassy-app --style=scss
 # later
 ng set defaults.styleExt scss
-# after ng6
 ng config defaults.styleExt = scss
 
 // .angular-cli.json
@@ -23,6 +22,8 @@ ng config defaults.styleExt = scss
 ## Forms Intro to Model Driven (Reactive) Forms
   * https://scotch.io/tutorials/how-to-build-nested-model-driven-forms-in-angular-2
   * https://scotch.io/tutorials/angular-2-form-validation
+  * BASIC: https://github.com/DeborahK/Angular-ReactiveForms/blob/master/Demo-Final/src/app/customers/customer.component.html
+  * MAGIC: https://netbasal.com/make-your-angular-forms-error-messages-magically-appear-1e32350b7fa5
 
 ## Add Form Controls Dynamically
 ```
@@ -70,15 +71,9 @@ private buildAnswerOptions(answers: any[]) {
 ```
 
 
-## Forms Intro to Model Driven (Reactive) Forms
- * https://scotch.io/tutorials/how-to-build-nested-model-driven-forms-in-angular-2
- * https://scotch.io/tutorials/angular-2-form-validation
- * BASIC: https://github.com/DeborahK/Angular-ReactiveForms/blob/master/Demo-Final/src/app/customers/customer.component.html
- * MAGIC: https://netbasal.com/make-your-angular-forms-error-messages-magically-appear-1e32350b7fa5
-
-
 ## Form Validations/Custom Validators
 cross fields: https://medium.com/@realTomaszKula/angular-cross-field-validation-d94e0d063b61
+basic: https://codecraft.tv/courses/angular/advanced-topics/basic-custom-validators/
 ```
 <div *ngIf="subscriptionForm.get('UserName').errors.required">
             This field is required!
