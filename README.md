@@ -2,6 +2,22 @@
 
 This project is created with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.0; [Typescript](https://www.typescriptlang.org) version 2.3.4.
 
+## SASS
+
+```
+# initial project generation
+ng new my-sassy-app --style=scss
+# later
+ng set defaults.styleExt scss
+
+// .angular-cli.json
+"defaults": {
+  "styleExt": "scss",
+  "component": {
+  }
+}
+```
+
 ## Add Form Controls Dynamically
 ```
 // some class.ts
