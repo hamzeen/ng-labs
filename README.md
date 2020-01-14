@@ -79,6 +79,19 @@ export const clearValidators = (controls: Array<FormControl | AbstractControl>) 
   controls.forEach(control => updateValidators(control, null));
 };
 
+export const validateForm = (form: FormGroup) => {
+  Object.keys(form.controls).forEach(control => {
+    const formControl = form.controls[control];
+
+    if (formControl instanceof FormGroup) {
+      validateForm(formControl);
+    } else {
+      formControl.markAsTouched();
+    }
+  });
+};
+
+
 // import { clearValidators, updateValidators } from '../shared/utilities/validate-utils.ts';
 
 ```
