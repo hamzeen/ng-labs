@@ -28,6 +28,8 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Reference
 
+survival kit: https://hamzeen.wordpress.com/2018/03/04/angular-survival-kit/
+
 deploy to github pages: https://github.com/cuckooinc/portfolio
 
 css to scss: https://scotch.io/tutorials/using-sass-with-the-angular-cli
