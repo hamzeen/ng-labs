@@ -66,7 +66,7 @@ private buildAnswerOptions(answers: any[]) {
 ```
 
 
-## Custom Validators
+## Form Validations/Custom Validators
 cross fields: https://medium.com/@realTomaszKula/angular-cross-field-validation-d94e0d063b61
 ```
 <div *ngIf="subscriptionForm.get('UserName').errors.required">
@@ -119,7 +119,7 @@ export const validateForm = (form: FormGroup) => {
 };
 
 // import { markFormGroupTouched, clearValidators, updateValidators } from '../shared/utilities/validate-utils.ts';
-
+TEMPLATE:=> {{formQuiz.value | json}}
 ```
 
 ## PDF:
