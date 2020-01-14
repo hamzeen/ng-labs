@@ -31,8 +31,7 @@ private buildAnswerOptions(answers: any[]) {
     <div *ngFor="let question of questions; let i = index;">
 	    {{question.label}}
 	    <div *ngFor="let answer of answersOptions[i]; let j = index;">
-        <input type="radio" formControlName="{{answer.id}}" />
-        {{answer.label}} 
+        <input type="radio" formControlName="{{answer.id}}" /> {{answer.label}} 
 	    </div>
     </div>
 </form>
