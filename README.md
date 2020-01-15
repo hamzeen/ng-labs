@@ -17,7 +17,8 @@ ng config defaults.styleExt = scss
   }
 }
 ```
-   * Bootstrap: https://loiane.com/2017/08/how-to-add-bootstrap-to-an-angular-cli-project/
+   * Bootstrap: https://medium.com/@tiboprea/add-bootstrap-4-with-its-sass-files-in-an-angular-5-project-3c8f7fcc0ac0
+   * CSS [2]: https://loiane.com/2017/08/how-to-add-bootstrap-to-an-angular-cli-project/
    
    
 ## Forms Intro to Model Driven (Reactive) Forms
