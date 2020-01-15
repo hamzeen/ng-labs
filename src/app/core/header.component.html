@@ -1,0 +1,11 @@
+
+<div *ngIf="title" class="navbar navbar-inverse">
+  <h2 class="text">:: {{title}} ::</h2>
+</div>
+
+<nav>
+  <a [routerLink]="['/about']">About</a>
+  <a href="#/users">Users</a>
+  <a href="#/contact">Contact</a>
+  <a href="#/graph">HighChart</a>
+</nav>

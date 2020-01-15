@@ -19,7 +19,7 @@ export class UserComponent {
   activeUser: User;
 
   constructor() {
-    this.addUser({id:4, name: 'Anders', lastName: 'Hans'});
+    this.addUser({id:4, name: 'Anders', lastname: 'Hans'});
   }
 
   selectUser(user) {

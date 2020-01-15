@@ -10,6 +10,7 @@ import { routes } from './app.routes';
 import { HighchartsChartModule } from 'highcharts-angular';
 import { GraphComponent } from './graph/graph.component';
 import {ContactModule} from './contact/contact.module';
+import {CoreModule} from './core/core.module';
 
 @NgModule({
   bootstrap: [AppComponent],
@@ -23,6 +24,7 @@ import {ContactModule} from './contact/contact.module';
     RouterModule,
     BrowserModule,
     HighchartsChartModule,
+    CoreModule,
     ContactModule,
     RouterModule.forRoot(routes, {
       useHash: true

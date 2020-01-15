@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { AwesomePipe, ContactComponent } from './';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {BrowserModule} from '@angular/platform-browser';
+import { CoreModule } from '../core/core.module';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import {BrowserModule} from '@angular/platform-browser';
   imports: [
     BrowserModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CoreModule
   ],
   exports: []
 })
