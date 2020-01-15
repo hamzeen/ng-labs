@@ -1,8 +1,7 @@
 # NgLabs
-
 This project is created with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.0; [Typescript](https://www.typescriptlang.org) version 2.3.4.
 
-## SASS
+## SASS/Bootstrap
 
 ```
 # initial project generation
@@ -18,7 +17,9 @@ ng config defaults.styleExt = scss
   }
 }
 ```
-
+   * Bootstrap: https://loiane.com/2017/08/how-to-add-bootstrap-to-an-angular-cli-project/
+   
+   
 ## Forms Intro to Model Driven (Reactive) Forms
   * https://scotch.io/tutorials/how-to-build-nested-model-driven-forms-in-angular-2
   * https://scotch.io/tutorials/angular-2-form-validation
