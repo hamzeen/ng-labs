@@ -9,7 +9,7 @@ import {BrowserModule} from '@angular/platform-browser';
     HeaderComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, /* *ngIf & belwo for [routerLink] */
     RouterModule.forRoot(routes, {
       useHash: true
     })
