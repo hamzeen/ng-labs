@@ -4,6 +4,14 @@ This project is created with [Angular CLI](https://github.com/angular/angular-cl
 ## Promises in the wild!
 * https://davidwalsh.name/promises
 
+## HACKS
+
+```
+<div [ngSwitch]="data.type">
+  <div *ngSwitchCase="data.type === 'multi-choice' || data.type === 'singe-choice' ? data.type : '' ">FORM 1</div>
+  <div *ngSwitchCase="'range'">FORM 2</div>
+</div>
+```
 ## SASS/Bootstrap
 
 ```
