@@ -1,6 +1,9 @@
 # NgLabs
 This project is created with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.0; [Typescript](https://www.typescriptlang.org) version 2.3.4.
 
+## Promises in the wild!
+* https://davidwalsh.name/promises
+
 ## SASS/Bootstrap
 
 ```
