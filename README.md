@@ -1,6 +1,10 @@
 # NgLabs
 This project is created with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.0; [Typescript](https://www.typescriptlang.org) version 2.3.4.
 
+## SCSS structure
+https://stackoverflow.com/questions/50878691/how-to-import-sass-files-in-angular-6/52990124
+
+
 ## Promises in the wild!
 * https://davidwalsh.name/promises
 
