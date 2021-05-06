@@ -1,6 +1,22 @@
 # NgLabs
 This project is created with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.0; [Typescript](https://www.typescriptlang.org) version 2.3.4.
 
+## About JWT
+
+
+## JWT FE
+* GOLD: https://medium.com/@amcdnl/authentication-in-angular-jwt-c1067495c5e0
+* https://blog.angular-university.io/angular-jwt-authentication/
+* https://jasonwatmore.com/post/2018/05/23/angular-6-jwt-authentication-example-tutorial
+
+## JWT Backend
+* https://scotch.io/tutorials/authenticate-a-node-es6-api-with-json-web-tokens
+
+
+## CORS issue in Express Porjects
+* https://betterprogramming.pub/how-to-handle-cors-in-an-angular2-and-node-express-applications-eb3de412abef
+* https://morioh.com/p/b8862a4df905
+
 ## SCSS structure
 https://stackoverflow.com/questions/50878691/how-to-import-sass-files-in-angular-6/52990124
 
